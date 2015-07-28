@@ -162,6 +162,12 @@ Whether to show diffs of <tt>~rancid/.cloginrc</tt> during puppet runs.
 
 - *Default*: true
 
+rcs_system
+----------
+Revision control system that RANCID will use. Available values are 'cvs' and 'svn'.
+
+- *Default*: 'cvs'
+
 ===
 
 # define rancid::router_db
